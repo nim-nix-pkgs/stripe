@@ -1,5 +1,5 @@
 {
-  description = ''Nim client for Stripe.com'';
+  description = ''Stripe SDK'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-stripe-master.flake = false;
   inputs.src-stripe-master.owner = "iffy";
-  inputs.src-stripe-master.ref   = "refs/heads/master";
+  inputs.src-stripe-master.ref   = "master";
   inputs.src-stripe-master.repo  = "nim-stripe";
   inputs.src-stripe-master.type  = "github";
   
